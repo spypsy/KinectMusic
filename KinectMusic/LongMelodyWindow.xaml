@@ -1,0 +1,74 @@
+﻿<Window xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:k="http://schemas.microsoft.com/kinect/2013"
+        xmlns:Controls="clr-namespace:Coding4Fun.Kinect.Wpf.Controls;assembly=Coding4Fun.Kinect.Wpf"
+        xmlns:att="clr-namespace:KinectMusic"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+        xmlns:ed="http://schemas.microsoft.com/expression/2010/drawing" 
+        xmlns:local="clr-namespace:KinectMusic" 
+        mc:Ignorable="d" 
+        x:Class="KinectMusic.LongMelodyWindow"
+        Title="KinectMusic" Height="1080" Width="1920">
+    <Grid>
+        <k:KinectUserViewer VerticalAlignment="Top" HorizontalAlignment="Center" k:KinectRegion.KinectRegion="{Binding ElementName=kinectRegion}"  />
+        <k:KinectRegion x:Name="kinectRegion">
+            <Canvas x:Name="canvas" Background="Transparent">                
+                <Path x:Name="btn1" Data="M676.5,993.5 C676.5,993.5 567,924 518.5,832 L666.5,734 C666.5,734 714,798 763.5,830.5 z" Height="263.5" Canvas.Left="516.5" Stretch="Fill" Stroke="Purple" StrokeThickness="4" Canvas.Top="732" Width="249">
+                	<Path.Fill>
+                		<SolidColorBrush Color="Purple" Opacity="0.0" x:Name="brush1"/>
+                	</Path.Fill>
+                </Path>
+                <Path x:Name="btn2" Data="M503,805 C503,805 454.5,728.5 446.5,588 L616.5,591.5 C616.5,591.5 622.5,658 659.5,717.5 z" Height="221" Canvas.Left="444.5" Stretch="Fill" Stroke="Purple" StrokeThickness="4" Canvas.Top="586" Width="217">
+                	<Path.Fill>
+                		<SolidColorBrush Color="Purple" Opacity="0.0" x:Name="brush2"/>
+                	</Path.Fill>
+                </Path>
+                <Path x:Name="btn3" Data="M446.5,565 C446.5,565 453,444 493.5,365 L641.5,424 C641.5,424 609,490.5 616,569 z" Height="208" Canvas.Left="444.5" Stretch="Fill" Stroke="Purple" StrokeThickness="4" Canvas.Top="363" Width="199">
+                	<Path.Fill>
+                		<SolidColorBrush Color="Purple" Opacity="0.0" x:Name="brush3"/>
+                	</Path.Fill>
+                </Path>
+                <Path x:Name="btn4" Data="M673.5,162.5 C673.5,162.5 568.5,224 506,344 L645.5,412.5 C645.5,412.5 672.5,345.5 749,286.5 z" Height="254" Canvas.Left="504" Stretch="Fill" Stroke="Purple" StrokeThickness="4" Canvas.Top="160.5" Width="247">
+                	<Path.Fill>
+                		<SolidColorBrush Color="Purple" Opacity="0.0" x:Name="brush4"/>
+                	</Path.Fill>
+                </Path>
+                <Path x:Name="btn5" Data="M693.5,150.5 C693.5,150.5 798,80.5 944,84.5 L943,223.50014 C943,223.50014 859,217.00013 760.5,278.50024 z" Height="198.165" Canvas.Left="691.5" Stretch="Fill" Stroke="Purple" StrokeThickness="4" Canvas.Top="82.335" Width="254.5">
+                	<Path.Fill>
+                		<SolidColorBrush Color="Purple" Opacity="0.0" x:Name="brush5"/>
+                	</Path.Fill>
+                </Path>
+                <Path x:Name="btn6" Data="M969.5,84.5 C969.5,84.5 1095.5,89 1204.5,162.5 L1124.5,276 C1124.5,276 1057,228 962.5,224 z" Height="195.5" Canvas.Left="960.5" Stretch="Fill" Stroke="Purple" StrokeThickness="4" Canvas.Top="82.5" Width="246">
+                	<Path.Fill>
+                		<SolidColorBrush Color="Purple" Opacity="0.0" x:Name="brush6"/>
+                	</Path.Fill>
+                </Path>
+                <Path x:Name="btn7" Data="M1225,177.5 C1225,177.5 1307,226 1374,345 L1241.5,407.5 C1241.5,407.5 1208.5,334.5 1142.5,289 z" Height="234" Canvas.Left="1140.5" Stretch="Fill" Stroke="Purple" StrokeThickness="4" Canvas.Top="175.5" Width="235.5">
+                	<Path.Fill>
+                		<SolidColorBrush Color="Purple" Opacity="0.0" x:Name="brush7"/>
+                	</Path.Fill>
+                </Path>
+                <Path x:Name="btn8" Data="M1381,360.5 C1381,360.5 1428.5,440 1432,571.5 L1275,563.5 C1275,563.5 1282.5,488 1245.5,417.5 z" Height="215" Canvas.Left="1243.5" Stretch="Fill" Stroke="Purple" StrokeThickness="4" Canvas.Top="358.5" Width="190.5">
+                	<Path.Fill>
+                		<SolidColorBrush Color="Purple" Opacity="0.0" x:Name="brush8"/>
+                	</Path.Fill>
+                </Path>
+                <Path x:Name="btn9" Data="M1433,589 C1433,589 1430,699 1384.5,788.5 L1230,719.5 C1230,719.5 1263.5,673.5 1274,576.5 z" Height="216" Canvas.Left="1228" Stretch="Fill" Stroke="Purple" StrokeThickness="4" Canvas.Top="574.5" Width="207">
+                	<Path.Fill>
+                		<SolidColorBrush Color="Purple" Opacity="0.0" x:Name="brush9"/>
+                	</Path.Fill>
+                </Path>
+                <Path x:Name="btn10" Data="M1370.5,814.5 C1370.5,814.5 1318,920 1212,986 L1108.5,840.5 C1108.5,840.5 1187,793 1218,738.5 z" Height="251.5" Canvas.Left="1106.5" Stretch="Fill" Stroke="Purple" StrokeThickness="4" Canvas.Top="736.5" Width="266">
+                	<Path.Fill>
+                		<SolidColorBrush Color="Purple" Opacity="0.0" x:Name="brush10"/>
+                	</Path.Fill>
+                </Path>
+                <Ellipse Fill="Red" Height="15" Width="15" x:Name="leftHand" Stroke="White" />
+                <!--<<Ellipse Fill="Red" Height="15" Width="15" Name="head" Stroke="White" />-->
+                <Ellipse Fill="Red" Height="15" Width="15" x:Name="rightHand" Stroke="White" />
+                <local:TempoControl x:Name="tempoControl" Canvas.Left="1224" Canvas.Top="57" Height="543" Width="404" />
+            </Canvas>
+        </k:KinectRegion>
+    </Grid>
+</Window>

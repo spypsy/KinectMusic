@@ -1,0 +1,42 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	mc:Ignorable="d"
+	x:Class="KinectMusic.TempoControl"
+	x:Name="UserControl"
+	Width="403.5" Height="543.246">
+
+    <Grid x:Name="LayoutRoot">
+        <Canvas x:Name="canvas">
+            <Path x:Name="tempoPath" 
+                  Data="M88.5,78 C88.5,78 307.50111,191.5 298,494.5" 
+                  Height="431.5" 
+                  Canvas.Left="81.5" 
+                  Stretch="Fill" 
+                  Stroke="Purple" 
+                  StrokeThickness="15" 
+                  Canvas.Top="71" 
+                  Width="224.799"/>
+            <Ellipse x:Name="ellipse"  
+                     Height="45" 
+                     Width="45" 
+                     Stroke="Purple" 
+                     StrokeThickness="5" 
+                     Fill="White" />
+            <Path x:Name="boundingPath" 
+                  Data="M27.001113,81.99967 L76.500483,20.499758 C76.500483,20.499758 342.49762,118.49962 338.67566,520.71705 L257.84289,520.21671 C257.84289,520.21671 274.49821,218.49947 27.001113,81.99967 z" 
+                  Height="505.218" 
+                  Canvas.Left="25" 
+                  Stretch="Fill" 
+                  StrokeThickness="5" 
+                  Canvas.Top="18.5" 
+                  Width="316.719">
+                <Path.Stroke>
+                    <SolidColorBrush Color="Purple" Opacity="0" x:Name="boundingBrush"/>
+                </Path.Stroke>
+            </Path>
+        </Canvas>
+    </Grid>
+</UserControl>

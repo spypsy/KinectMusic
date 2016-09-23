@@ -1,0 +1,21 @@
+﻿<Window x:Class="KinectMusic.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Selector" Height="380" Width="248">
+    <Grid>
+        <Button Name="ShortMelodyHold" Click="MelodyHold_Click" Height="100" Width="100" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,10,0,0">
+            <TextBlock>Short Melody <LineBreak /> (hold) </TextBlock>
+        </Button>
+        <Button Name="ShortMelodyStacc" Click="MelodyStacc_Click" Height="100" Width="100" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="0,10,10,0">
+            <TextBlock>Short Melody <LineBreak /> (no hold)</TextBlock>
+        </Button>
+        <Button Name="LongMelodyHold" Click="LongMelodyHold_Click" Height="100" Width="100" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="10,115,0,118">
+            <TextBlock>Long Melody <LineBreak /> (hold)</TextBlock>
+        </Button>
+        <Button Name="LongMelodyStacc" Click="LongMelodyStacc_Click" Height="100" Width="100" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0,115,10,118">
+            <TextBlock>Long Melody <LineBreak /> (no hold)</TextBlock>
+        </Button>
+        <Button Name="Bass" Content="Bass Wobble" Click="Bass_Click" Height="100" Width="100" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="10,0,0,13"/>
+        <Button x:Name="Drums" Content="Launchpad" Click="Drums_Click" Height="100" Width="100" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="0,0,10,13"/>
+    </Grid>
+</Window>
